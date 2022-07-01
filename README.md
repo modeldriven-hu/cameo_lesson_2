@@ -1,6 +1,10 @@
-# Cameo/MagicDraw plugin development - Lesson 1
+# Cameo/MagicDraw plugin development - Lesson 2
 
-This is the first lession of how to develop a plugin for Cameo/MagicDraw. At the end of the lession you will have an environment and a very simple - hello world - example.
+This is the second lesson of the series. In this lesson we will learn how to add actions to MagicDraw.
+
+Reference documentation:
+
+* https://docs.nomagic.com/display/MD2021xR2/Invoking+actions
 
 # Requirements
 
@@ -12,7 +16,7 @@ This is the first lession of how to develop a plugin for Cameo/MagicDraw. At the
 
 ## Check out the repository
 
-`git clone https://github.com/modeldriven-hu/cameo_lesson_1.git`
+`git clone https://github.com/modeldriven-hu/cameo_lesson_2.git`
 
 ## Configure environment variable
 
@@ -30,7 +34,7 @@ or when using PowerShell:
 
 ## Extract into Cameo plugins folder
 
-Extract `target/hu.modeldriven.cameo.lesson1.zip` into `CAMEO_ROOT/plugins`
+Extract `target/hu.modeldriven.cameo.lesson2.zip` into `CAMEO_ROOT/plugins`
 
 ## Restart
 
