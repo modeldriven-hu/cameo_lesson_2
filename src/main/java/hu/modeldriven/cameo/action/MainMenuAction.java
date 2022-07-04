@@ -3,7 +3,6 @@ package hu.modeldriven.cameo.action;
 import com.nomagic.magicdraw.actions.MDAction;
 import com.nomagic.magicdraw.core.Application;
 
-import javax.swing.*;
 import java.awt.event.ActionEvent;
 
 public class MainMenuAction extends MDAction {

@@ -8,8 +8,8 @@ Reference documentation:
 
 # Requirements
 
-- Cameo/MagicDraw latest 
-- Java JDK 11 
+- Cameo/MagicDraw latest
+- Java JDK 11
 - Maven
 
 # Usage

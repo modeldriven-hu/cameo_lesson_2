@@ -9,7 +9,7 @@ public class MainMenuConfiguration implements AMConfigurator {
 
     private final MainMenuAction mainMenuAction;
 
-    public MainMenuConfiguration(MainMenuAction action){
+    public MainMenuConfiguration(MainMenuAction action) {
         this.mainMenuAction = action;
     }
 
@@ -17,8 +17,8 @@ public class MainMenuConfiguration implements AMConfigurator {
     public void configure(ActionsManager actionsManager) {
         var newProjectAction = actionsManager.getActionFor(ActionsID.NEW_PROJECT);
 
-        if (newProjectAction != null){
-            var category = (ActionsCategory)actionsManager.getActionParent(newProjectAction);
+        if (newProjectAction != null) {
+            var category = (ActionsCategory) actionsManager.getActionParent(newProjectAction);
             var actionsInCategory = category.getActions();
             actionsInCategory.add(mainMenuAction);
             category.setActions(actionsInCategory);
